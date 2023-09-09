@@ -8,7 +8,7 @@
           
 [rewrite_local]
 
-^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/hnkks/Scripts/main/wyy.js
+^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/hnkks/Quantumult-X/main/wyy.js
 
 
 [mitm] 
